@@ -7,14 +7,13 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import data.ExcellReader;
-import pages.HomePage;
 import pages.PageBase;
 import pages.UserRegistrationPage;
 
 public class UserRegistrationTestWithDDTAndExcel extends TestBase{
 
 	PageBase pagebaseobj;
-	HomePage homeobject;
+	
 	
 	UserRegistrationPage userRegisterObj;
 
